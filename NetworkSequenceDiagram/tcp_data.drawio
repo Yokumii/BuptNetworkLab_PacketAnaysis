@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
+    <mxGraphModel dx="1627" dy="1105" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="900" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-1" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="880" as="sourcePoint" />
+            <mxPoint x="279.17" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-2" value="MacBook Air" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png;fontStyle=1;fontFamily=Lucida Console;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="295" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-3" value="信息门户服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="935" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="140" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-5" value="Cilent&lt;div&gt;Process&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="240" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-6" value="Cilent&lt;div&gt;Transport&lt;/div&gt;&lt;div&gt;Layer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-7" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="880" as="sourcePoint" />
+            <mxPoint x="399.17" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-8" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="400" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-12" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="919.37" y="880" as="sourcePoint" />
+            <mxPoint x="919.5400000000001" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="850" y="140" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-15" value="Server&lt;br&gt;&lt;div&gt;Transport&lt;/div&gt;&lt;div&gt;Layer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="880" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-16" value="Server&lt;br&gt;&lt;div&gt;Process&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;fontStyle=1;fontSize=15;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-17" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040.83" y="880" as="sourcePoint" />
+            <mxPoint x="1040" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="920" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-25" value="Port：61364" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="290" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-26" value="Port：80" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="930" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-30" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;HTTP/1.1 GET Request&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;PSH ACK&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Seq = 1 ACK = 1&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Window Size =&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;131520 Bytes&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=5;labelBorderColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="510" y="280" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-37" value="&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px; font-weight: 700;&quot;&gt;TCP ACK&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px; font-weight: 700;&quot;&gt;Seq =1 ACK = 119&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px; font-weight: 700;&quot;&gt;Window Size =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;29056 Bytes&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=355;labelBackgroundColor=none;labelBorderColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="509.9966022977039" y="410.00348587017686" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-39" value="&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px; font-weight: 700;&quot;&gt;HTTP/1.1 200 OK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; font-size: 15px; font-weight: 700;&quot;&gt;PSH ACK&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Seq = 1/&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;1371/&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;2741/&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 15px; font-family: &amp;quot;Lucida Console&amp;quot;;&quot;&gt;4111&amp;nbsp;ACK = 119&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=355;labelBorderColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="509.9966022977039" y="490.00348587017686" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-40" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="560" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-41" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dFTXVc5wMc4jdkPegv3A-42" value="TCP 数据通信阶段" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontSize=15;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1040" y="260" width="200" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="570" as="sourcePoint" />
+            <mxPoint x="400" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="590" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-7" value="IP 分片导致&amp;nbsp; HTTP 响应被分为 4 个 PDU" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="475" y="620" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="720" as="sourcePoint" />
+            <mxPoint x="920" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-9" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;TCP ACK&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 15px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Seq = 119 ACK = 4627&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Window Size =&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;126912&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp;Bytes&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=5;labelBorderColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="509.9966022977039" y="650.0034858701769" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="800" as="sourcePoint" />
+            <mxPoint x="920" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-11" value="&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;TCP Window Update&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 15px; font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Seq = 119 ACK = 4627&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Window Size =&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;126912 -&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 15px;&quot;&gt;&lt;font face=&quot;Lucida Console&quot;&gt;&lt;b&gt;131072&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;b style=&quot;font-family: &amp;quot;Lucida Console&amp;quot;; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 15px;&quot;&gt;&amp;nbsp;Bytes&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=5;labelBorderColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="475" y="730" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-12" value="通知服务端可以继续发更多数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;fontColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="475" y="830" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-15" value="send(HTTP GET)" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;whiteSpace=wrap;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="175" y="320" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="920" y="400" as="sourcePoint" />
+            <mxPoint x="1040" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-17" value="recv(HTTP GET)" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;whiteSpace=wrap;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="815" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-20" value="write(HTTP Response)" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;whiteSpace=wrap;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="815" y="440" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-22" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="480" as="sourcePoint" />
+            <mxPoint x="920" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-28" value="解析 HTTP 响应：&#xa;- 状态码 200&#xa;- Content-Type: image/x-icon&#xa;- Content-Length: 4286&#xa;→ 渲染或保存 favicon.ico" style="text;align=center;verticalAlign=middle;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;whiteSpace=wrap;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry y="560" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bI06Vc52YEieZhwQTh_b-29" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontSize=15;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="280" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

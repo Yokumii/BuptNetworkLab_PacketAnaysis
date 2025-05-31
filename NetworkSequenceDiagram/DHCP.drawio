@@ -1,0 +1,178 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
+    <mxGraphModel dx="976" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-1" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.08999999999978" y="120" as="sourcePoint" />
+            <mxPoint x="119" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-5" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Tower_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="720" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-6" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
+          <mxGeometry x="400" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5899999999998" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="759.5899999999998" y="120" as="sourcePoint" />
+            <mxPoint x="760" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-9" value="Macbook Air" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;labelBackgroundColor=none;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="80" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-10" value="网关 10.29.0.1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="400" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-11" value="DHCP 服务器 10.3.9.2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="690" y="10" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="160" as="sourcePoint" />
+            <mxPoint x="760" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-13" value="DHCP Release&amp;nbsp;10.29.169.27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontStyle=1;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint x="40" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-14" value="10.29.169.27" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="140" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-15" value="Xid&amp;nbsp;0x63c5b3e8" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="760" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-16" value="0.0.0.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-18" value="DHCP Discover Broadcast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontStyle=1;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="sourcePoint" />
+            <mxPoint x="760" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-20" value="DHCP Discover Broadcast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontStyle=1;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-21" value="DHCP Relay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="440" y="260" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="320" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-23" value="DHCP Offer 10.29.169.27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Lucida Console;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-22" vertex="1" connectable="0">
+          <mxGeometry x="0.2875" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="120" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-25" value="DHCP Offer 10.29.169.27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Lucida Console;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-24" vertex="1" connectable="0">
+          <mxGeometry x="0.2875" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-28" value="DHCP Relay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="360" y="340" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-29" value="Xid&amp;nbsp;0x66d94e94" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="770" y="370" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="760" y="300" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-31" value="0.0.0.0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-32" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-33" value="DHCP Request Broadcast&lt;div&gt;10.29.169.27&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontStyle=1;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="440" as="sourcePoint" />
+            <mxPoint x="760" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-35" value="DHCP Request Broadcast&lt;div&gt;10.29.169.27&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Lucida Console;fontStyle=1;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-34" vertex="1" connectable="0">
+          <mxGeometry x="-0.1251" relative="1" as="geometry">
+            <mxPoint x="10" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-36" value="DHCP Relay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="440" y="420" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-37" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-38" value="DHCP ACK 10.29.169.27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Lucida Console;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-37" vertex="1" connectable="0">
+          <mxGeometry x="0.2875" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-39" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="sourcePoint" />
+            <mxPoint x="120" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-40" value="DHCP ACK 10.29.169.27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontFamily=Lucida Console;fontColor=#FF3333;" parent="HSnQgAmNcQNBRipC3zWY-39" vertex="1" connectable="0">
+          <mxGeometry x="0.2875" relative="1" as="geometry">
+            <mxPoint x="36" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-41" value="10.29.169.27" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="40" y="520" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HSnQgAmNcQNBRipC3zWY-42" value="DHCP Relay" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;fontStyle=1;fontColor=#3333FF;" parent="1" vertex="1">
+          <mxGeometry x="360" y="500" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
