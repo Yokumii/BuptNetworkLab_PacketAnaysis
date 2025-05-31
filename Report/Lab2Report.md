@@ -1,5 +1,11 @@
 # 《计算机网络》实验二：IP 和 TCP 数据分组的捕获和解析
 
+# 目录
+
+[TOC]
+
+<!-- 注释语句：导出PDF时会在这里分页 -->
+
 ## 实验内容和实验环境描述
 
 ### 实验内容
@@ -48,7 +54,7 @@
 
 （2）启动 Wireshark，选择正确的接口 en0，准备捕获协议数据；
 
-<img src="./assets/image-20250527202432867.png" alt="image-20250527202432867" style="zoom:50%;" />
+<img src="./assets/image-20250527202432867.png" alt="image-20250527202432867" width="67%" />
 
 <center><strong>图 2.1 Wireshark 启动界面</strong></center>
 
@@ -81,7 +87,7 @@
 
 1. **设置捕获条件**：在捕获过滤器中进行如下设置：`udp port 67`；
 
-<img src="./assets/image-20250527203207260.png" alt="image-20250527203207260" style="zoom:50%;" />
+<img src="./assets/image-20250527203207260.png" alt="image-20250527203207260" width="67%" />
 
 <center><strong>图 2.2 Wireshark 捕获器设置</strong></center>
 
@@ -89,14 +95,14 @@
 3. **释放主机的 IP 地址并重新获取**：使用 iTerm2 终端，运行 `sudo ipconfig set en0 DHCP`，释放主机 IP 地址，断网，再重新获取 IP 地址；
 4. 观察 Wireshark，捕获到以下数据包：
 
-![image-20250527214400727](./assets/image-20250527214400727.png)
+<img src="./assets/image-20250527214400727.png" alt="image-20250527214400727" width="67%" />
 
 <center><strong>图 2.3 捕获到的 DHCP 消息</strong></center>
 
 5. **保存捕获内容**：选中 5 条消息，保存至 `dhcp.pcapng` ；
 6. 如果通过筛选器而不是捕获器设置条件，还可以查看同一次操作中的 Arp 消息，结果如下：
 
-<img src="./assets/Wireshark 2025-05-27 21.44.18.png" alt="Wireshark 2025-05-27 21.44.18" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-27 21.44.18.png" alt="Wireshark 2025-05-27 21.44.18" width="67%" />
 
 <center><strong>图 2.4 捕获到的 ARP 消息</strong></center>
 
@@ -222,13 +228,13 @@
 
 1. 释放 IP  地址时，发送了一个长度为 342 Bytes 的 Release 包，包的内容如下：
 
-<img src="./assets/image-20250528002131182.png" alt="image-20250528002131182" style="zoom:50%;" />
+<img src="./assets/image-20250528002131182.png" alt="image-20250528002131182" width="67%" />
 
 <center><strong>图 2.5 Release 包内容</strong></center>
 
 ​	Wireshark 软件可以快捷地解析出对应字段的内容（字段的命名和我稍有区别，不过无影响），方便分析：
 
-<img src="./assets/image-20250528002526553.png" alt="image-20250528002526553" style="zoom:50%;" />
+<img src="./assets/image-20250528002526553.png" alt="image-20250528002526553" width="67%" />
 
 <center><strong>图 2.6 Release 包解析结果</strong></center>
 
@@ -259,11 +265,11 @@
 
 ​	首先，DHCP Discover 消息是由客户端（本机）在网络中广播发送的，用于寻找可用的 DHCP 服务器，其报文内容和解析结果如图 2.7 和图 2.8 所示：
 
-<img src="./assets/image-20250528105437114.png" alt="image-20250528105437114" style="zoom:50%;" />
+<img src="./assets/image-20250528105437114.png" alt="image-20250528105437114" width="67%" />
 
 <center><strong>图 2.7 Discover 包内容</strong></center>
 
-<img src="./assets/image-20250528105851094.png" alt="image-20250528105851094" style="zoom:50%;" />
+<img src="./assets/image-20250528105851094.png" alt="image-20250528105851094" width="67%" />
 
 <center><strong>图 2.8 Discover 包解析结果</strong></center>
 
@@ -294,11 +300,11 @@
 
 ​	当收到 DHCP Discover 报文后，服务器发送一个 DHCP Offer 报文，用于提供可供客户端使用的 IP 地址和其他网络配置信息。其报文内容和解析结果如图 2.9 和图 2.10 所示：
 
-<img src="./assets/image-20250528111326721.png" alt="image-20250528111326721" style="zoom:50%;" />
+<img src="./assets/image-20250528111326721.png" alt="image-20250528111326721" width="67%" />
 
 <center><strong>图 2.9 Offer 包内容</strong></center>
 
-<img src="./assets/image-20250528111507433.png" alt="image-20250528111507433" style="zoom:50%;" />
+<img src="./assets/image-20250528111507433.png" alt="image-20250528111507433" width="67%" />
 
 <center><strong>图 2.10 Offer 包解析结果</strong></center>
 
@@ -331,11 +337,11 @@
 
 ​	当客户端收到 DHCP 消息后，它会对提供的网络参数进行检查，如果没问题，会发送 DHCP Request 消息，用于请求使用服务器在 DHCP Offer 消息中提供的 IP 地址和其他网络配置信息。其报文内容和解析结果如图 2.11 和图 2.12 所示：
 
-<img src="./assets/image-20250528121832344.png" alt="image-20250528121832344" style="zoom:50%;" />
+<img src="./assets/image-20250528121832344.png" alt="image-20250528121832344" width="67%" />
 
 <center><strong>图 2.11 Request 包内容</strong></center>
 
-<img src="./assets/image-20250528122007208.png" alt="image-20250528122007208" style="zoom:50%;" />
+<img src="./assets/image-20250528122007208.png" alt="image-20250528122007208" width="67%" />
 
 <center><strong>图 2.12 Request 包解析结果</strong></center>
 
@@ -365,11 +371,11 @@
 
 ​	当服务器收到 Request 报文后，如果确认无误，会回复一个 DHCP ACK 报文，用于正式分配 IP 地址和其他网络配置信息。其报文内容和解析结果如图 2.13 和图 2.14 所示。
 
-<img src="./assets/image-20250528123324858.png" alt="image-20250528123324858" style="zoom:50%;" />
+<img src="./assets/image-20250528123324858.png" alt="image-20250528123324858" width="67%" />
 
 <center><strong>图 2.13 ACK 包内容</strong></center>
 
-<img src="./assets/image-20250528123425130.png" alt="image-20250528123425130" style="zoom:50%;" />
+<img src="./assets/image-20250528123425130.png" alt="image-20250528123425130" width="67%" />
 
 <center><strong>图 2.14 ACK 包解析结果</strong></center>
 
@@ -404,7 +410,7 @@
 
 ​	通过对捕获到的 DHCP 报文的详细分析，我使用 draw.io 绘制了 DHCP 服务器（服务端）和本机（客户端）的交互图如图 2 - 15 所示。
 
-<img src="./assets/DHCP.png" alt="DHCP" style="zoom:50%;" />
+<img src="./assets/DHCP.png" alt="DHCP" width="67%" />
 
 <center><strong>图 2.15 DHCP 网络交互图</strong></center>
 
@@ -505,7 +511,7 @@
 
 ​	首先，我的主机进行了 3 轮的发送 ARP Probe 包的操作，并且为 1 次广播 + 1 次单播。
 
-<img src="./assets/image-20250529220639232.png" alt="image-20250529220639232" style="zoom:50%;" />
+<img src="./assets/image-20250529220639232.png" alt="image-20250529220639232" width="67%" />
 
 <center><strong>图 2.33 ARP Probe 阶段</strong></center>
 
@@ -619,13 +625,13 @@
 2. **开始捕获**：按下左上角的 `Start Capturing packets` 清空捕获记录并重新开始捕获；
 3. **执行 ping 命令**：使用 iTerm2 终端，执行  `ping -c 4 www.bupt.edu.cn` ，进行连通性测试；
 
-<img src="./assets/image-20250528164105479.png" alt="image-20250528164105479" style="zoom:50%;" />
+<img src="./assets/image-20250528164105479.png" alt="image-20250528164105479" width="67%" />
 
 <center><strong>图 2.16 连通性测试</strong></center>
 
 4. 观察 Wireshark，捕获到以下数据包：
 
-<img src="./assets/image-20250528163323313.png" alt="image-20250528163323313" style="zoom:50%;" />
+<img src="./assets/image-20250528163323313.png" alt="image-20250528163323313" width="67%" />
 
 <center><strong>图 2.17  捕获到的 ICMP 消息</strong></center>
 
@@ -641,7 +647,7 @@
 
 ​	ICMP  报文有以下几种类型，如图 2 - 18 所示：
 
-<img src="./assets/12.png" alt="img" style="zoom:50%;" />
+<img src="./assets/12.png" alt="img" width="67%" />
 
 <center><strong>图 2.18 ICMP 报文类型</strong></center>
 
@@ -696,11 +702,11 @@
 
 ​	我们共捕获到 8 个，即 4 对 Request 包 和 Reply 包，我们选取第一组为例进行分析。Request 包的内容和解析结果如图 2 - 19 和 图 2 - 20 所示。
 
-<img src="./assets/image-20250528181932541.png" alt="image-20250528181932541" style="zoom:50%;" />
+<img src="./assets/image-20250528181932541.png" alt="image-20250528181932541" width="67%" />
 
 <center><strong>图 2.19 ICMP Request 包内容</strong></center>
 
-<img src="./assets/image-20250528182130562.png" alt="image-20250528182130562" style="zoom:50%;" />
+<img src="./assets/image-20250528182130562.png" alt="image-20250528182130562" width="67%" />
 
 <center><strong>图 2.19 ICMP Request 包解析结果</strong></center>
 
@@ -724,11 +730,11 @@
 
 ​	Reply 包的内容和解析结果如图 2 - 20 和 图 2 - 21 所示：
 
-<img src="./assets/image-20250528183810166.png" alt="image-20250528183810166" style="zoom:50%;" />
+<img src="./assets/image-20250528183810166.png" alt="image-20250528183810166" width="67%" />
 
 <center><strong>图 2.20 ICMP Reply 包内容</strong></center>
 
-<img src="./assets/image-20250528183907338.png" alt="image-20250528183907338" style="zoom:50%;" />
+<img src="./assets/image-20250528183907338.png" alt="image-20250528183907338" width="67%" />
 
 <center><strong>图 2.21 ICMP Reply 包解析结果</strong></center>
 
@@ -759,13 +765,13 @@
 1. **开始捕获**：按下左上角的 `Start Capturing packets` 清空捕获记录并重新开始捕获；
 1. **执行 ping 命令**：使用 iTerm2 终端，执行  `ping -c 4 -s 8000 www.bupt.edu.cn` ，制作 8000 Bytes 的 IP 数据报并发送；
 
-<img src="./assets/image-20250529001837764.png" alt="image-20250529001837764" style="zoom:50%;" />
+<img src="./assets/image-20250529001837764.png" alt="image-20250529001837764" width="67%" />
 
 <center><strong>图 2.22 制作 IP 数据报并发送</strong></center>
 
 4. 观察 Wireshark，捕获到以下数据包：
 
-<img src="./assets/image-20250529002004777.png" alt="image-20250529002004777" style="zoom:50%;" />
+<img src="./assets/image-20250529002004777.png" alt="image-20250529002004777" width="67%" />
 
 <center><strong>图 2.23 捕获到的 IP数据报</strong></center>
 
@@ -809,7 +815,7 @@
 
 ​	由捕获的内容可得，我们制作的 8000Bytes 的 IP 数据包被分为 6 片，我们依次分析每个分片的具体内容如下，对分片的内容和解析结果见图 2 - 25（由于篇幅限制，此处不一一展示每个分片的内容和解析结果），对每个分片字段的注释见表 2 - 9 ～ 表 2 - 14 。
 
-<img src="./assets/image-20250529004413333.png" alt="image-20250529004413333" style="zoom:50%;" />
+<img src="./assets/image-20250529004413333.png" alt="image-20250529004413333" width="67%" />
 
 <center><strong>图 2.25 第一个分片的内容和解析结果</strong></center>
 
@@ -912,7 +918,7 @@
 
 ​	在 Wireshark 中，最后一个到达的分片中能看到分片重组为 packet 的过程，如图 2 - 26 所示：
 
-<img src="./assets/image-20250529095123484.png" alt="image-20250529095123484" style="zoom:50%;" />
+<img src="./assets/image-20250529095123484.png" alt="image-20250529095123484" width="67%" />
 
 <center><strong>图 2.26 分片重组过程</strong></center>
 
@@ -955,13 +961,13 @@ Header Checksum: 0xdf7c[validation disabled]
 
 ​	这说明该 Checksum 未验证，这是因为Wireshark 默认有些情况下不会主动验证 Checksum，我们是通过 **WIFI 接口抓取发送包**，所以属于默认情况之一。如果希望对 Checksum 进行验证，可以在 Wireshark 中的 `Preferences → Protocols → IPv4` 勾选 `Validate the IPv4 checksum if possible` ，如图 2 - 27 所示。
 
-<img src="./assets/Wireshark 2025-05-29 10.56.38.png" alt="Wireshark 2025-05-29 10.56.38" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-29 10.56.38.png" alt="Wireshark 2025-05-29 10.56.38" width="67%" />
 
 <center><strong>图 2.27 打开 Checksum 主动验证</strong></center>
 
 ​	然后，再次点击进入 packet ，可以发现解析结果变为：
 
-<img src="./assets/image-20250529110432412.png" alt="image-20250529110432412" style="zoom:50%;" />
+<img src="./assets/image-20250529110432412.png" alt="image-20250529110432412" width="67%" />
 
 <center><strong>图 2.28 Checksum 主动验证显示结果</strong></center>
 
@@ -1009,11 +1015,11 @@ uint16_t calculate_checksum(uint16_t *data, int length) {
 
 ​	这里简单 ping 一个 IPv6 的包并对其进行分析。我选择对 BYRPT 进行连通性测试，具体捕获过程略。
 
-<img src="./assets/image-20250530001755681.png" alt="image-20250530001755681" style="zoom:50%;" />
+<img src="./assets/image-20250530001755681.png" alt="image-20250530001755681" width="67%" />
 
 <center><strong>图 2.34 IPv6 协议下的连通性测试</strong></center>
 
-<img src="./assets/image-20250530001902848.png" alt="image-20250530001902848" style="zoom:50%;" />
+<img src="./assets/image-20250530001902848.png" alt="image-20250530001902848" width="67%" />
 
 <center><strong>图 2.35 捕获的 IPv6 包</strong></center>
 
@@ -1097,11 +1103,11 @@ uint16_t calculate_checksum(uint16_t *data, int length) {
 2. 由于你的笔记本可能同时存在多个网络进程，除了通过 `tcp` 进行筛选，最好还需要指定 IP 地址；
 3. 在指定 IP 地址时，我在实验中遇到以下问题，如果用学校官网作为目标，macOS 遵循 [RFC 6724](https://www.rfc-editor.org/rfc/rfc6724)，其中定义了地址选择优先级，IPv6 通常会被优先选用（尤其在 DNS 返回 IPv6 和 IPv4 的情况下），而学校官网显然支持 IPv6 访问，并且校园网也是优先走 IPv6 流量的，macOS 系统上可以通过 `nslookup -query=AAAA <host>` 进行查询，如图 2 - 29 所示。
 
-<img src="./assets/iTerm2 2025-05-29 13.15.14.png" alt="iTerm2 2025-05-29 13.15.14" style="zoom:50%;" />
+<img src="./assets/iTerm2 2025-05-29 13.15.14.png" alt="iTerm2 2025-05-29 13.15.14" width="67%" />
 
 <center><strong>图 2.29 学校官网的域名解析</strong></center>
 
-<img src="./assets/Google Chrome 2025-05-29 13.13.34.png" alt="Google Chrome 2025-05-29 13.13.34" style="zoom:50%;" />
+<img src="./assets/Google Chrome 2025-05-29 13.13.34.png" alt="Google Chrome 2025-05-29 13.13.34" width="67%" />
 
 <center><strong>图 2.30 校园网 IPv6 测试</strong></center>
 
@@ -1110,7 +1116,7 @@ uint16_t calculate_checksum(uint16_t *data, int length) {
 6. 由于电脑与 BYRPT 需要保持通信，所以我并不打算采用临时禁用 IPv6 的方式。而是采用 macOS 系统的 `curl` 命令参数 `-4` ，强制使用 IPv4 发其 GET 请求；
 7. 极小概率情况下，即使通过参数强制使用 IPv4 发起请求，会出现如图 2 - 31 所示的情形。
 
-<img src="./assets/Wireshark 2025-05-29 13.04.52.png" alt="Wireshark 2025-05-29 13.04.52" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-29 13.04.52.png" alt="Wireshark 2025-05-29 13.04.52" width="67%" />
 
 <center><strong>图 2.31 一种“奇怪”的情形</strong></center>
 
@@ -1125,7 +1131,7 @@ uint16_t calculate_checksum(uint16_t *data, int length) {
 3. **发起请求**：使用 iTerm2 终端，执行  `curl -4 http://my.bupt.edu.cn/images/favicon.ico -o favicon.ico` ，发起 GET 请求；
 4. 观察 Wireshark，捕获到以下数据包：
 
-<img src="./assets/Wireshark 2025-05-29 14.21.34.png" alt="Wireshark 2025-05-29 14.21.34" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-29 14.21.34.png" alt="Wireshark 2025-05-29 14.21.34" width="67%" />
 
 <center><strong>图 2.32 捕获到的 TCP 和 HTTP 包</strong></center>
 
@@ -1215,7 +1221,7 @@ uint16_t calculate_checksum(uint16_t *data, int length) {
 
 ​	建立连接过程包括捕获的 Frame 1 ～ 3 ，如图 2 - 36 所示，我们先对每个报文的内容进行分析，在分析其完整的工作流程。对每个报文的字段的详细注释见表 2 - 20 ～ 2 - 22 ；（原始字节流和解析结果由于篇幅显示此处就省略了，同时，字段内容只针对 TCP 报文内容进行分析）
 
-<img src="./assets/image-20250530123553293.png" alt="image-20250530123553293" style="zoom:50%;" />
+<img src="./assets/image-20250530123553293.png" alt="image-20250530123553293" width="67%" />
 
 <center><strong>图 2.36 建立连接阶段的 TCP 包</strong></center>
 
@@ -1323,7 +1329,7 @@ Sequence Number (raw): 1627214260
 
 ​	可以画出建立连接过程的消息序列图如图 2 - 37 所示：
 
-<img src="./assets/tcp_syn (1).png" alt="tcp_syn (1)" style="zoom:50%;" />
+<img src="./assets/tcp_syn (1).png" alt="tcp_syn (1)" width="67%" />
 
 <center><strong>图 2.37 TCP 建立连接过程网络序列图</strong></center>
 
@@ -1340,7 +1346,7 @@ Sequence Number (raw): 1627214260
 
 ​	不过实验过程中，释放连接阶段，实际只捕获到了 3 次挥手，对应 Frame 12 ~ 14 ，如图 2 - 38 所示。
 
-<img src="./assets/Wireshark 2025-05-30 17.30.05.png" alt="Wireshark 2025-05-30 17.30.05" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-30 17.30.05.png" alt="Wireshark 2025-05-30 17.30.05" width="67%" />
 
 <center><strong>图 2.38 释放连接阶段的 TCP 包</strong></center>
 
@@ -1396,7 +1402,7 @@ Sequence Number (raw): 1627214260
 
 ​	以实验实际的结果为准，画出“三次挥手”的释放连接过程的消息序列图如图 2 - 39 所示：
 
-<img src="./assets/tcp_fin.png" alt="tcp_fin" style="zoom:50%;" />
+<img src="./assets/tcp_fin.png" alt="tcp_fin" width="67%" />
 
 <center><strong>图 2.39 TCP 释放连接过程网络序列图</strong></center>
 
@@ -1408,7 +1414,7 @@ Sequence Number (raw): 1627214260
 
 ​	首先，需要明确，TCP 需要发送的数据包是由上层（应用层等）给它的，毕竟 TCP 协议是为应用层服务的，那么如果当服务器收到客户端的 TCP FIN 时，应用层有数据要发送呢？它立刻发送 ACK 给客户端显然没有问题，并且实际工作过程中，**内核确实是立刻回一个 ACK 应答报文**，因为客户端发出了 FIN 请求，说明客户端的应用层已经没有数据要发了。但是它如果将 FIN 一起发出去，应用层的数据不就不能发送了吗？所以，**对于要不要发 FIN 请求，决定权在应用层手上**。
 
-<img src="./assets/18635e15653a4affbdab2c9bf72d599e.png" alt="在这里插入图片描述" style="zoom:50%;" />
+<img src="./assets/18635e15653a4affbdab2c9bf72d599e.png" alt="在这里插入图片描述" width="67%" />
 
 <center><strong>图 2.40 TCP 释放连接的“四次挥手”（图源：小林coding）</strong></center>
 
@@ -1595,7 +1601,7 @@ Sequence Number (raw): 1627214260
 
 ​	可以画出 TCP 的数据通信阶段的网络交互图如图 2 - 41 所示：
 
-<img src="./assets/tcp_data.png" alt="tcp_data" style="zoom:50%;" />
+<img src="./assets/tcp_data.png" alt="tcp_data" width="67%" />
 
 <center><strong>图 2.41 TCP 的数据通信阶段的网络交互图</strong></center>
 
@@ -1613,7 +1619,7 @@ Sequence Number (raw): 1627214260
 
 ​	HTTP 请求内容被放在 TCP 报文中的 Payload 部分，实验中，我们捕获到的内容如图 2 - 42 所示：
 
-<img src="./assets/Wireshark 2025-05-31 00.02.10.png" alt="Wireshark 2025-05-31 00.02.10" style="zoom:50%;" />
+<img src="./assets/Wireshark 2025-05-31 00.02.10.png" alt="Wireshark 2025-05-31 00.02.10" width="67%" />
 
 <center><strong>图 2.42 HTTP 请求内容</strong></center>
 
@@ -1630,7 +1636,7 @@ Sequence Number (raw): 1627214260
 
 ​	HTTP 响应内容同样被放在 TCP 报文中的 Payload 部分，不过传输过程中进行了分片。实验中，我们捕获到的内容如图 2 - 43 所示：
 
-<img src="./assets/image-20250531002036855.png" alt="image-20250531002036855" style="zoom:50%;" />
+<img src="./assets/image-20250531002036855.png" alt="image-20250531002036855" width="67%" />
 
 <center><strong>图 2.43 HTTP 响应内容</strong></center>
 
@@ -1647,7 +1653,7 @@ Sequence Number (raw): 1627214260
 
 ​	客户端下载的图标文件如图 2 - 44 所示：
 
-<img src="./assets/image-20250531002615842.png" alt="image-20250531002615842" style="zoom:50%;" />
+<img src="./assets/image-20250531002615842.png" alt="image-20250531002615842" width="67%" />
 
 <center><strong>图 2.44 下载的图标文件</strong></center>
 
